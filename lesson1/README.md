@@ -1,6 +1,6 @@
 # Deep Learning Fundamentals
 
-Лекция: ... (скоро сам добавлю)
+Лекция: [ссылка](https://disk.yandex.ru/i/uudsIbkJPeuaKw)
 
 Семинар: [seminar](./seminar)
 
