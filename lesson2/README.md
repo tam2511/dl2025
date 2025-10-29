@@ -4,3 +4,5 @@
 
 Семинар: [seminar](./seminar)
 
+Домашнее задание: [homework](./homework)
+
