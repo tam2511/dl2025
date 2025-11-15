@@ -1,8 +1,17 @@
+import re
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import glob
 from pathlib import Path
+def extract_version_number(folder_path):
+    """Extract version number from folder path"""
+    match = re.search(r'version_(\d+)', folder_path)
+    if match:
+        return int(match.group(1))
+    return 0
+
 
 def plot_metrics_from_csv(csv_path):
     """Plot training and validation metrics from CSV file"""
@@ -56,7 +65,10 @@ def plot_all_metrics():
     if not csv_files:
         print("No metrics.csv files found!")
         return
-    csv_files.sort()
+
+
+    csv_files = sorted(csv_files, key=extract_version_number)
+
     print(f"Found {len(csv_files)} metrics files:")
     for i, file in enumerate(csv_files):
         print(f"{i+1}. {file}")
