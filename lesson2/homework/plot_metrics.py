@@ -56,7 +56,7 @@ def plot_all_metrics():
     if not csv_files:
         print("No metrics.csv files found!")
         return
-    
+    csv_files.sort()
     print(f"Found {len(csv_files)} metrics files:")
     for i, file in enumerate(csv_files):
         print(f"{i+1}. {file}")
