@@ -7,3 +7,4 @@
 - [Lesson 5: Training Optimization](lesson5/)
 - [Lesson 6: Training Modes Part 1](lesson6/)
 - [Lesson 7: Training Modes Part 2](lesson7/)
+- [Lesson 8: Model optimization](lesson8/)

@@ -1,0 +1,34 @@
+# Requirements for lesson7: Metric Learning and Retrieval
+# Compatible versions - tested together
+
+# Core ML libraries
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical computing (NumPy 2.x compatible)
+numpy>=2.0.0,<2.5.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Data manipulation
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Optional: Approximate Nearest Neighbors (for notebook 03)
+# Uncomment one of the following if needed:
+# hnswlib>=0.7.0
+# faiss-cpu>=1.7.4
+# faiss-gpu>=1.7.4  # Requires CUDA
+
+# Installation:
+# pip install -r requirements.txt
+#
+# For optional ANN libraries (uncomment in file or install separately):
+# pip install hnswlib
+# pip install faiss-cpu  # or faiss-gpu for GPU support

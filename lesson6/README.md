@@ -1,6 +1,6 @@
 # Training Modes Part 1
 
-Лекция: [ссылка](https://disk.yandex.ru/i/qQrCoxZfS3kz9Q)
+Лекция: [ссылка](https://disk.yandex.ru/i/ixTL6WYHkUq68Q)
 
 Семинар: [seminar](./seminar)
 
